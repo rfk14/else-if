@@ -1,0 +1,18 @@
+
+#include <iostream>
+using namespace std;
+int main(){
+ int income;
+ cout<<"To know the items at your income capacity. Enter your income: ";
+ cin>>income;
+ if (income<=15000){
+     cout<<"Buy some clothes and bat"<<endl;
+ }
+else if (income<=25000){
+    cout<<"Buy Oppp mobile";
+}
+else if(income<=45000){
+    cout<<"Buy an i phone king ";
+}
+
+}
